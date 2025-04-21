@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 using System.IO;
 
 namespace FirstProject;
@@ -13,10 +14,15 @@ public class Game1 : Game
     private SpriteFont font;
     private int nrLinhas = 0;
     private int nrColunas = 0;
-    private char[,] level;
     private Texture2D player, dot, box, wall; //Load images Texture
-    int tileSize = 64; //potencias de 2 (operações binárias)
     private Player sokoban;
+    //private char[,] level;
+    public char[,] level;
+    public List<Point> boxes = new();
+
+    int tileSize = 64; //potencias de 2 (operações binárias)
+
+
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -52,6 +58,8 @@ public class Game1 : Game
     }
     void LoadLevel(string levelFile)
     {
+
+        boxes = new List<Point>();
         string[] linhas = File.ReadAllLines($"Content/{levelFile}"); // "Content/" + level
         nrLinhas = linhas.Length;
         nrColunas = linhas[0].Length;
@@ -60,15 +68,20 @@ public class Game1 : Game
         {
             for (int y = 0; y < nrLinhas; y++)
             {
-                if (linhas[y][x] == 'Y')
+                if (linhas[y][x] == '#')
                 {
-                    sokoban = new Player(x, y);
+                    boxes.Add(new Point(x, y));
+                    level[x, y] = ' '; // put a blank instead of the box '#'
+                }
+                else if (linhas[y][x] == 'Y')
+                {
+                    sokoban = new Player(this, x, y);
                     level[x, y] = ' '; // put a blank instead of the sokoban 'Y'
                 }
                 else
                 {
                     level[x, y] = linhas[y][x];
-                }
+                }
             }
         }
     }
@@ -80,6 +93,7 @@ public class Game1 : Game
         // TODO: Add your update logic here
 
         base.Update(gameTime);
+        sokoban.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
@@ -116,6 +130,12 @@ public class Game1 : Game
                         _spriteBatch.Draw(wall, position, Color.White);
                         break;
                 }
+                foreach (Point b in boxes)
+                {
+                    position.X = b.X * tileSize;
+                    position.Y = b.Y * tileSize;
+                    _spriteBatch.Draw(box, position, Color.White);
+                }
             }
         }
         position.X = sokoban.Position.X * tileSize;
@@ -124,5 +144,21 @@ public class Game1 : Game
         _spriteBatch.End();
 
         base.Draw(gameTime);
+    }
+
+    public bool HasBox(int x, int y) // x e y é a posição do Player
+    {
+        foreach (Point b in boxes)
+        {
+            if (b.X == x && b.Y == y) return true; // se a caixa tiver a mesma posição do Player
+        }
+        return false;
+    }
+    public bool FreeTile(int x, int y)
+    {
+        if (level[x, y] == 'X') return false; // se for uma parede está ocupada
+        if (HasBox(x, y)) return false; // verifica se é uma caixa
+        return true;
+        /* The same as: return level[x,y] != 'X' && !HasBox(x,y); */
     }
 }

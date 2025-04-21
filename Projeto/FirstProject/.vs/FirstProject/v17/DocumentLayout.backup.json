@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:content\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "level1.txt",
+              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\level1.txt",
+              "RelativeDocumentMoniker": "Content\\level1.txt",
+              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\level1.txt",
+              "RelativeToolTip": "Content\\level1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-21T17:49:37.678Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,14 +53,14 @@
               "RelativeDocumentMoniker": "Content\\Player.cs",
               "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\Player.cs",
               "RelativeToolTip": "Content\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwCMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:34:58.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "File.spritefont",
               "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\File.spritefont",
               "RelativeDocumentMoniker": "Content\\File.spritefont",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Content\\File.spritefont",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-21T17:18:27.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:18:27.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -64,8 +80,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:11:57.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:11:57.995Z"
             },
             {
               "$type": "Document",
@@ -75,7 +90,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAApwDgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T11:49:13.871Z",
               "EditorCaption": ""
