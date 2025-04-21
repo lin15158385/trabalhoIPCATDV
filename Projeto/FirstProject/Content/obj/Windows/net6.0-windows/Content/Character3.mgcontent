@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character3.png</SourceFile>
+  <SourceFile>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character3.png</SourceFile>
   <SourceTime>2025-04-11T17:16:26+01:00</SourceTime>
-  <DestFile>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/Character3.xnb</DestFile>
-  <DestTime>2025-04-21T19:25:59.6494624+01:00</DestTime>
+  <DestFile>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/bin/Windows/Content/Character3.xnb</DestFile>
+  <DestTime>2025-04-21T20:04:12.4294184+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

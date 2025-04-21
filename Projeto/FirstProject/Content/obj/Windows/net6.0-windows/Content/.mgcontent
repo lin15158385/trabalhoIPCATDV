@@ -4,21 +4,21 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/../../../sokoban/Sokoban Resources/PNG/Character4.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character1.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character10.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character2.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character3.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character4.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character5.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character6.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character7.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character8.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character9.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Crate_Brown.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/EndPoint_Blue.png</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/File.spritefont</File>
-    <File>C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Wall_Brown.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/../../../sokoban/Sokoban Resources/PNG/Character4.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character1.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character10.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character2.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character3.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character4.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character5.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character6.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character7.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character8.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Character9.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Crate_Brown.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/EndPoint_Blue.png</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/File.spritefont</File>
+    <File>C:/Users/zongs/Desktop/新建文件夹 (3) - 副本/Projeto/FirstProject/Content/Wall_Brown.png</File>
   </SourceFiles>
   <DestFiles>
     <File>Character4.png</File>

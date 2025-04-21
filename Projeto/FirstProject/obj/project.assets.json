@@ -7532,11 +7532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3)\\Projeto\\FirstProject\\FirstProject.csproj",
+      "projectUniqueName": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3) - 副本\\Projeto\\FirstProject\\FirstProject.csproj",
       "projectName": "FirstProject",
-      "projectPath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3)\\Projeto\\FirstProject\\FirstProject.csproj",
+      "projectPath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3) - 副本\\Projeto\\FirstProject\\FirstProject.csproj",
       "packagesPath": "C:\\Users\\zongs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3)\\Projeto\\FirstProject\\obj\\",
+      "outputPath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3) - 副本\\Projeto\\FirstProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

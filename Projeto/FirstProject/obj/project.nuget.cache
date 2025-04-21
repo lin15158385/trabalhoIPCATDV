@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/a9rC0dzAR4=",
+  "dgSpecHash": "sXxyszlGfuU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3)\\Projeto\\FirstProject\\FirstProject.csproj",
+  "projectFilePath": "C:\\Users\\zongs\\Desktop\\新建文件夹 (3) - 副本\\Projeto\\FirstProject\\FirstProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zongs\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\zongs\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

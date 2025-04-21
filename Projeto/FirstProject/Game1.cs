@@ -96,13 +96,15 @@ public class Game1 : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        _spriteBatch.Begin();
-        _spriteBatch.DrawString(font, "O texto que quiser", new Vector2(0, 40), Color.White);
-        _spriteBatch.DrawString(font, $"Numero de Linhas = {nrLinhas} -- Numero de Colunas = {nrColunas}", new Vector2(0, 0), Color.White);
-        _spriteBatch.End();
-
+        GraphicsDevice.Clear(Color.CornflowerBlue);
 
         _spriteBatch.Begin();
+
+        // Draw text info
+        _spriteBatch.DrawString(font, "Sokoban Game", new Vector2(0, 40), Color.White);
+        _spriteBatch.DrawString(font, $"Level Size: {nrColunas}x{nrLinhas}", new Vector2(0, 0), Color.White);
+
+        // Draw level tiles
         Rectangle position = new Rectangle(0, 0, tileSize, tileSize);
         for (int x = 0; x < level.GetLength(0); x++)
         {
@@ -110,11 +112,9 @@ public class Game1 : Game
             {
                 position.X = x * tileSize;
                 position.Y = y * tileSize;
+
                 switch (level[x, y])
                 {
-                    case '#':
-                        _spriteBatch.Draw(box, position, Color.White);
-                        break;
                     case '.':
                         _spriteBatch.Draw(dot, position, Color.White);
                         break;
@@ -122,15 +122,19 @@ public class Game1 : Game
                         _spriteBatch.Draw(wall, position, Color.White);
                         break;
                 }
-                foreach (Point b in boxes)
-                {
-                    position.X = b.X * tileSize;
-                    position.Y = b.Y * tileSize;
-                    _spriteBatch.Draw(box, position, Color.White);
-                }
-            }   
+            }
         }
 
+        // Draw boxes
+        foreach (Point b in boxes)
+        {
+            position.X = b.X * tileSize;
+            position.Y = b.Y * tileSize;
+            _spriteBatch.Draw(box, position, Color.White);
+        }
+
+        // Draw player (THIS WAS MISSING)
+        sokoban.Draw(_spriteBatch);
 
         _spriteBatch.End();
 

@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\",
+  "WorkspaceRootPath": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\projeto\\firstproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\content\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\projeto\\firstproject\\content\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:content\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\projeto\\firstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\projeto\\firstproject\\content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|c:\\users\\zongs\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\projeto\\firstproject\\content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6E24E016-178F-4559-8D82-2F5871DBF54C}|FirstProject.csproj|solutionrelative:content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "level1.txt",
-              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\level1.txt",
+              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Content\\level1.txt",
               "RelativeDocumentMoniker": "Content\\level1.txt",
-              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\level1.txt",
+              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Content\\level1.txt",
               "RelativeToolTip": "Content\\level1.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -44,24 +44,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Content\\Player.cs",
               "RelativeDocumentMoniker": "Content\\Player.cs",
-              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\Player.cs",
+              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Content\\Player.cs",
               "RelativeToolTip": "Content\\Player.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAAIwKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:34:58.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:34:58.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Game1.cs",
+              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAUwI8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwI8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T11:49:13.871Z",
               "EditorCaption": ""
@@ -70,14 +69,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Program.cs",
+              "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3) - \u526F\u672C\\Projeto\\FirstProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:11:57.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:11:57.995Z"
             }
           ]
         }
