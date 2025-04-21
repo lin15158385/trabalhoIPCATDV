@@ -5,13 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Graphics;
+using static FirstProject.Game1;
 
 namespace FirstProject.Content
 {
     internal class Player
     {
+        private Texture2D[][] sprites;
         private Game1 game;
         private bool keysReleased = true;
+
+
+        enum Direction
+        {
+            Up, Down, Left, Right // 0, 1, 2, 3
+        }
+        public const int tileSize = 64; //potencias de 2 (operações binárias)
+
+        private Direction direction = Direction.Down;
         // Current player position in the matrix (multiply by tileSize prior to drawing)
 
         private Point position; //Point = Vector2, mas são inteiros
@@ -28,15 +40,31 @@ namespace FirstProject.Content
         }
         public void Update(GameTime gameTime)
         {
+            Point lastPosition = position;
             KeyboardState kState = Keyboard.GetState();
-            if (keysReleased)
+            if ((kState.IsKeyDown(Keys.A)) || (kState.IsKeyDown(Keys.Left)))
             {
-                keysReleased = false;
-                if ((kState.IsKeyDown(Keys.A)) || (kState.IsKeyDown(Keys.Left))) position.X--;
-                else if ((kState.IsKeyDown(Keys.W)) || (kState.IsKeyDown(Keys.Up))) position.Y--;
-                else if ((kState.IsKeyDown(Keys.S)) || (kState.IsKeyDown(Keys.Down))) position.Y++;
-                else if ((kState.IsKeyDown(Keys.D)) || (kState.IsKeyDown(Keys.Right))) position.X++;
-                else keysReleased = true;
+                position.X--;
+                //game.direction = Direction.Left;
+                direction = Direction.Left;
+            }
+            else if ((kState.IsKeyDown(Keys.W)) || (kState.IsKeyDown(Keys.Up)))
+            {
+                position.Y--;
+                //game.direction = Direction.Up;
+                direction = Direction.Up;
+            }
+            else if ((kState.IsKeyDown(Keys.S)) || (kState.IsKeyDown(Keys.Down)))
+            {
+                position.Y++;
+                //game.direction = Direction.Down;
+                direction = Direction.Down;
+            }
+            else if ((kState.IsKeyDown(Keys.D)) || (kState.IsKeyDown(Keys.Right)))
+            {
+                position.X++;
+                //game.direction = Direction.Right;
+                direction = Direction.Right;
             }
             else
             {
@@ -47,7 +75,6 @@ namespace FirstProject.Content
                 }
             }
 
-            Point lastPosition = position;
             // destino é caixa?
             if (game.HasBox(position.X, position.Y))
             {
@@ -78,6 +105,35 @@ namespace FirstProject.Content
             }
         }
 
+        public void LoadContents()
+        {
+            sprites = new Texture2D[4][];
+            sprites[(int)Direction.Up] = new Texture2D[]
+                {
+                game.Content.Load<Texture2D>("Character7"),
+                game.Content.Load<Texture2D>("Character8"),
+                game.Content.Load<Texture2D>("Character9")
+                };
+            sprites[(int)Direction.Down] = new Texture2D[] {
+                game.Content.Load<Texture2D>("Character4"),
+                game.Content.Load<Texture2D>("Character5"),
+                game.Content.Load<Texture2D>("Character6") };
+            sprites[(int)Direction.Left] = new Texture2D[] {
+                game.Content.Load<Texture2D>("Character1"),
+                game.Content.Load<Texture2D>("Character10") };
+            sprites[(int)Direction.Right] = new Texture2D[] {
+                game.Content.Load<Texture2D>("Character2"),
+                game.Content.Load<Texture2D>("Character3") };   
+        }
+
+
+        public void Draw(SpriteBatch sb)
+        {
+            Rectangle rect = new Rectangle(Game1.tileSize * position.X,
+                                     Game1.tileSize * position.Y,
+                                    Game1.tileSize, Game1.tileSize);
+            sb.Draw(sprites[(int)direction][0], rect, Color.White); //desenha o Player
+        }
 
 
     }

@@ -42,8 +42,7 @@
               "RelativeToolTip": "Content\\level1.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-21T17:49:37.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:49:37.678Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "Content\\Player.cs",
               "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Content\\Player.cs",
               "RelativeToolTip": "Content\\Player.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwCMAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:34:58.587Z",
               "EditorCaption": ""
@@ -90,7 +89,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\zongs\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939 (3)\\Projeto\\FirstProject\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwBQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAawD8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T11:49:13.871Z",
               "EditorCaption": ""

@@ -81,3 +81,12 @@ C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\obj\Debug\net6.0
 C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\level1.txt
 C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\level2.txt
 C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\level3.txt
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character1.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character10.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character2.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character3.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character5.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character6.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character7.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character8.xnb
+C:\Users\zongs\Desktop\新建文件夹 (3)\Projeto\FirstProject\bin\Debug\net6.0-windows\Content\Character9.xnb

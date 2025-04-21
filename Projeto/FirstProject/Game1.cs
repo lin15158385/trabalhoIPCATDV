@@ -15,12 +15,12 @@ public class Game1 : Game
     private int nrLinhas = 0;
     private int nrColunas = 0;
     private Texture2D player, dot, box, wall; //Load images Texture
+
     private Player sokoban;
-    //private char[,] level;
     public char[,] level;
     public List<Point> boxes = new();
 
-    int tileSize = 64; //potencias de 2 (operações binárias)
+    public static int tileSize = 64; //potencias de 2 (operações binárias)
 
 
     public Game1()
@@ -34,7 +34,7 @@ public class Game1 : Game
     {
 
         LoadLevel("level1.txt");
-
+        sokoban.LoadContents();
         _graphics.PreferredBackBufferHeight = tileSize * level.GetLength(1); //definição da altura
         _graphics.PreferredBackBufferWidth = tileSize * level.GetLength(0); //definição da largura
         _graphics.ApplyChanges(); //aplica a atualização da janela
@@ -49,11 +49,9 @@ public class Game1 : Game
         // Use the name of your sprite font file here instead of 'File'.
         font = Content.Load<SpriteFont>("File");
 
-        player = Content.Load<Texture2D>("Character4");
         dot = Content.Load<Texture2D>("EndPoint_Blue");
         box = Content.Load<Texture2D>("Crate_Brown");
         wall = Content.Load<Texture2D>("Wall_Brown");
-
 
     }
     void LoadLevel(string levelFile)
@@ -91,9 +89,12 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        if (Keyboard.GetState().IsKeyDown(Keys.R)) Initialize();
 
         base.Update(gameTime);
         sokoban.Update(gameTime);
+
+        if (Victory()) Exit(); // FIXME: Change current level
     }
 
     protected override void Draw(GameTime gameTime)
@@ -103,9 +104,6 @@ public class Game1 : Game
         _spriteBatch.DrawString(font, $"Numero de Linhas = {nrLinhas} -- Numero de Colunas = {nrColunas}", new Vector2(0, 0), Color.White);
         _spriteBatch.End();
 
-        //case 'Y':
-        // _spriteBatch.Draw(player, position, Color.White);
-        // break;
 
         _spriteBatch.Begin();
         Rectangle position = new Rectangle(0, 0, tileSize, tileSize);
@@ -117,9 +115,6 @@ public class Game1 : Game
                 position.Y = y * tileSize;
                 switch (level[x, y])
                 {
-                    //case 'Y’:
-                    // _spriteBatch.Draw(player, position, Color.White);
-                    // break;
                     case '#':
                         _spriteBatch.Draw(box, position, Color.White);
                         break;
@@ -138,9 +133,6 @@ public class Game1 : Game
                 }
             }
         }
-        position.X = sokoban.Position.X * tileSize;
-        position.Y = sokoban.Position.Y * tileSize;
-        _spriteBatch.Draw(player, position, Color.White);
         _spriteBatch.End();
 
         base.Draw(gameTime);
@@ -160,5 +152,14 @@ public class Game1 : Game
         if (HasBox(x, y)) return false; // verifica se é uma caixa
         return true;
         /* The same as: return level[x,y] != 'X' && !HasBox(x,y); */
+    }
+
+    public bool Victory()
+    {
+        foreach (Point b in boxes) // pecorrer a lista das caixas
+        {
+            if (level[b.X, b.Y] != '.') return false; // verifica se há caixas sem pontos
+        }
+        return true;
     }
 }
