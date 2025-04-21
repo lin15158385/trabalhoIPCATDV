@@ -32,23 +32,20 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-
+        // TODO: Add your initialization logic here
         LoadLevel("level1.txt");
-        sokoban.LoadContents();
-        _graphics.PreferredBackBufferHeight = tileSize * level.GetLength(1); //definição da altura
+        _graphics.PreferredBackBufferHeight = tileSize * (1 + level.GetLength(1)); //definição da altura
         _graphics.PreferredBackBufferWidth = tileSize * level.GetLength(0); //definição da largura
         _graphics.ApplyChanges(); //aplica a atualização da janela
-
+        sokoban.LoadContents();
         base.Initialize();
-
     }
 
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         // Use the name of your sprite font file here instead of 'File'.
-        font = Content.Load<SpriteFont>("File");
-
+        font = Content.Load<SpriteFont>("File");    
         dot = Content.Load<Texture2D>("EndPoint_Blue");
         box = Content.Load<Texture2D>("Crate_Brown");
         wall = Content.Load<Texture2D>("Wall_Brown");
@@ -131,8 +128,10 @@ public class Game1 : Game
                     position.Y = b.Y * tileSize;
                     _spriteBatch.Draw(box, position, Color.White);
                 }
-            }
+            }   
         }
+
+
         _spriteBatch.End();
 
         base.Draw(gameTime);
