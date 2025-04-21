@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character1.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character10.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character2.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character3.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character4.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character5.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character6.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character7.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character8.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Character9.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Crate_Brown.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/EndPoint_Blue.png</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/File.spritefont</File>
+    <File>C:/Users/fonte/OneDrive - Instituto Politécnico do Cávado e do Ave/ipca/Tecnica de desenvolvimento de videojogos/GitHub/IPCATDVJ2425/FirstProject/Sokoban/Content/Wall_Brown.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

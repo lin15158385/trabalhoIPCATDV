@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Character4.png","C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/Character4.xnb","TextureProcessor","Texture2DContent",1668,8817,0.1296479
+"C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Crate_Brown.png","C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/Crate_Brown.xnb","TextureProcessor","Texture2DContent",1064,16469,0.0022072
+"C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/EndPoint_Blue.png","C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/EndPoint_Blue.xnb","TextureProcessor","Texture2DContent",592,4181,0.0018028
+"C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/File.spritefont","C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/File.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.1417345
+"C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/Wall_Brown.png","C:/Users/zongs/Desktop/新建文件夹 (3)/Projeto/FirstProject/Content/bin/Windows/Content/Wall_Brown.xnb","TextureProcessor","Texture2DContent",1493,16469,0.0017669
